@@ -12,7 +12,7 @@ week[6] = 'Суббота';
 console.log(week);
 
 var now = new Date();
-console.log(now.getDay());
+
 for (let i=0; i < 7; i++) {
   if (week[i] == 'Суббота' || week[i] == 'Воскресенье') { 
     document.write(week[i].bold() + '<br>');
