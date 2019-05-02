@@ -37,7 +37,7 @@ let btn = document.querySelector('.btn'),
 		dx = 1,
 		dy = -1,
 		ballRadius = 30,
-		requestID = 2000;
+		requestID;
 
 function drawBall() {
 	ctx.beginPath();
